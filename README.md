@@ -1,2 +1,3 @@
-# discord-unblocked
-Discord unblocked on GitHub Pages!
+# Discord Unblocked
+
+An unblocked embeddable Discord server!
