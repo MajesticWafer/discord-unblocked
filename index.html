@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
     <title>Discord Unblocked</title>
     <style>
         body, html {
@@ -10,12 +13,23 @@
             padding: 0;
             overflow: hidden;
             height: 100%;
+            background-color: #F8F8F8;
+        }
+        .roboto-medium {
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+        }
+        .roboto-medium-italic {
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-style: italic;
         }
         #header {
             background-image: url('header.jpeg');
             background-size: cover;
             background-position: center;
-            height: 100px;
+            height: 50px;
             display: flex;
             align-items: center;
             justify-content: flex-start;
@@ -25,18 +39,19 @@
             font-weight: bold;
         }
         #content {
-            height: calc(100% - 100px); /* Subtract header height */
+            height: calc(100% - 50px); /* Subtract header height */
         }
     </style>
 </head>
 <body>
-    <div id="header">Discord Unblocked</div>
+    <div id="header" class="roboto-medium">Discord Unblocked</div>
     <div id="content">
         <widgetbot
           server="1206981618556731483"
           channel="1206981619198595136"
-          width="100vw"
-          height="100vh"
+          width="90vh"
+          height="90vh"
+          left="calc(50vh - 50%)"
         ></widgetbot>
         <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
     </div>
