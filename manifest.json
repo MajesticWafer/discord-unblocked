@@ -1,0 +1,15 @@
+{
+	"name": "Discord Unblocked",
+	"short_name": "Discord",
+	"start_url": ".",
+	"display": "fullscreen",
+	"background_color": "black",
+	"description": "A small Discord widget application that usually bypasses most restrictions",
+	"icons": [
+		{
+			"src": "icon.jpeg",
+			"sizes": "512x512",
+			"type": "image/jpeg"
+		}
+	]
+}
